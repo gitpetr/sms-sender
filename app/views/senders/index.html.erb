@@ -1,0 +1,10 @@
+<%= form_tag({controller: "senders", action: "create"}, method: "post") do %>
+  <%= label_tag(:phone, 'Телефон') %><br/>
+  <%= text_field_tag(:phone) %><br/><br/>
+  <%= label_tag(:message, 'Сообщение') %><br/>
+  <%= text_area_tag(:message) %><br/><br/>
+  <%= submit_tag("Послать") %>
+<% end %>
+
+ 
+
