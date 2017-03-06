@@ -9,8 +9,8 @@ require "erb"
 
 class SMSC
 	# Константы для настройки библиотеки
-	SMSC_LOGIN = "Khilenko"			# логин клиента
-	SMSC_PASSWORD = "8f73ad75e8f85041051c8148a91c5996"	# пароль или MD5-хеш пароля в нижнем регистре
+	SMSC_LOGIN = $SMSC_LOGIN#"Khilenko"			# логин клиента
+	SMSC_PASSWORD = $SMSC_PASSWORD# "8f73ad75e8f85041051c8148a91c5996"	# пароль или MD5-хеш пароля в нижнем регистре
 	SMSC_POST = false				# использовать метод POST
 	SMSC_HTTPS = false				# использовать HTTPS протокол
 	SMSC_CHARSET = "utf-8"			# кодировка сообщения: koi8-r или windows-1251 (по умолчанию utf-8)
